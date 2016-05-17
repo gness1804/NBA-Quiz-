@@ -1,0 +1,154 @@
+html {
+	font-family: Arial, sans-serif;
+	background-color: #e6f2ff;
+	background-size: cover;
+}
+h1 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+	color: #8585ad;
+	text-shadow: 1.5px 1.5px silver;
+}
+a:link {
+	text-decoration: none;
+	color: #0000ff;
+}
+a:visited {
+	color: #004d00;
+}
+a:hover {
+	color: red;
+}
+.question {
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+.question span {
+	font-weight: bold;
+}
+.question div {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px;
+}
+input[type=submit] {
+	position: absolute;
+	left: 600px;
+}
+.pic {
+	position: absolute;
+	left: 400px;
+	top: 100px;
+	width: 500px;
+	height: 300px;
+}
+.blurb {
+	position: absolute;
+	top: 450px;
+	font-size: 20px;
+}
+iframe {
+	position: absolute;
+	top: 600px;
+	left: 400px;
+	width: 500px;
+	height: 300px;
+}
+.goback {
+	position: absolute;
+	top: 920px;
+	left: 600px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: white;
+}
+@media screen and (max-width: 500px) { /* For smartphones */
+	body{
+		margin: 0 auto;
+		width: 95%;
+	}
+	.teamhead h1 {
+		text-align: none;
+		position: absolute;
+		left: 100px;
+	}
+	.teamhead {
+		width: 70px;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	h3 {
+		text-align: left;
+		color: #8585ad;
+		text-shadow: 1.5px 1.5px silver;
+	}
+	input[type=submit] {
+		position: absolute;
+		left: 0px;
+		margin-left: 10px;
+	}
+	.pic {
+		position: absolute;
+		left: 70px;
+		top: 150px;
+		width: 500px;
+		height: 300px;
+	}
+	iframe {
+		position: absolute;
+		top: 600px;
+		left: 400px;
+		width: 0px;
+		height: 0px;
+	}
+	.blurb {
+		position: absolute;
+		top: 500px;
+		left: 130px;
+		font-size: 20px;
+		text-align: center;
+		word-wrap: break-word;
+	}
+	.goback {
+		position: absolute;
+		top: 920px;
+		left: 500px;
+		text-align: center;
+		border: 1px solid black;
+		border-radius: 5px;
+		padding: 5px;
+		background-color: white;
+	}
+	input[type=submit] {
+		position: absolute;
+		left: 120px;
+	}
+}
+@media screen and (min-width: 501px) and (max-width: 800px) { /* For tablets */
+	.pic {
+		position: absolute;
+		left: 90px;
+		top: 90px;
+		width: 500px;
+		height: 300px;
+	}
+	iframe {
+		position: absolute;
+		top: 650px;
+		left: 150px;
+		width: 500px;
+		height: 300px;
+	}
+	.goback {
+		position: absolute;
+		top: 1000px;
+		left: 300px;
+	}
+	input[type=submit] {
+		position: absolute;
+		left: 350px;
+	}
+}
